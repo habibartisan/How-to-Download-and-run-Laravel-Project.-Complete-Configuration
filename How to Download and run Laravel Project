@@ -13,4 +13,7 @@ Step:
  8. if(storage==hasfile){
       php artisa storage:link
      } 
-9.Run php artisan serve
+ 9.  if(seed==hasfile){
+      php artisan db:seed
+     }   
+10.Run php artisan serve
